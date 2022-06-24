@@ -4,7 +4,7 @@ let numberOfToppings = 10;
 console.log(typeof numberOfToppings);
 console.log(typeof myName);
 
-console.log(`When you visit ${myName} you can choose any amount of ${numberOfToppings} of toppings`);
+console.log(`When you visit ${myName} you can choose up to ${numberOfToppings} toppings`);
 
 if (numberOfToppings < 10){
   console.log("Quantity not quality.");
