@@ -1,0 +1,43 @@
+function welcometoZolonwhereourtoppingsarebaconpepperonniandmushrooms(){
+  console.log(`Welcome to Zolon where our toppings are: bacon, pepperonni, and mushrooms.`);
+}
+welcometoZolonwhereourtoppingsarebaconpepperonniandmushrooms();
+
+// Parameters
+function orderWithParams(order){
+  let style;
+  if (order == `large thin crust pizza`){
+    style = `all toppings`;
+  }
+
+greeting = `One ${order} pizza with ${style} coming up!`;
+  return greeting;
+}
+console.log(orderWithParams(`large thin crust`));
+// console.log(greeting);
+
+// Parameters
+function preparePizzaWithParams(prepare){
+  let style;
+  if (prepare == `large thin crust`){
+    style = `all toppings`;
+  }
+
+  greeting = `Your ${prepare} pizza with ${style} is currently cooking.`;
+  return greeting;
+}
+console.log(preparePizzaWithParams(`large thin crust`));
+// console.log(greeting);
+
+// Parameters
+function servePizzaWithParams(serve){
+  let style;
+  if (serve == `large thin crust`){
+    style = `all toppings`;
+  }
+
+  greeting = `Order up! Here's your ${serve} pizza with ${style}. Enjoy!`;
+  return greeting;
+}
+console.log(servePizzaWithParams(`large thin crust`));
+// console.log(greeting);
